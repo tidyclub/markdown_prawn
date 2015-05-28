@@ -1,3 +1,4 @@
+#coding: utf-8
 class ListFragment < MarkdownFragment
   attr_accessor :ordered
   def render_on(pdf, options = {})
